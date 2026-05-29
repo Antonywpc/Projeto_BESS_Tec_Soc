@@ -427,3 +427,20 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Banco de dados
+*.sql
+*.db
+
+# Backend — build e dependências
+backend/bin/
+backend/obj/
+backend/appsettings.json
+
+# Frontend — dependências
+frontend/node_modules/
+frontend/dist/
+
+# Sistema
+.DS_Store
+Thumbs.db
